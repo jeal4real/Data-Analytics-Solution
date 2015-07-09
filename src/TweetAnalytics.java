@@ -23,7 +23,7 @@ public class TweetAnalytics {
 
     public void analyseTweet(String inputDir, String outputDir) {
 
-        int tweetSN = 0; //tweet serial number
+        int tweetSN = 0; //tweet serial number 
         int distinctWordCounter, distinctWordSum = 0;
         String word, tweet = "";
         String[] tweetWords;
